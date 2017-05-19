@@ -32,19 +32,26 @@
 
 @import url("Reset.css");
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
 li{
   list-style: none;
 }
 
 .header{
   height:200px;
-  background-color: red;
-  font-size: 2em;
+  background-color: white;
+  
+
 }
 
 nav{
   padding-top:100px;
   text-align: center;
+  font-size: 2em;
 }
 nav li{
     display:inline;
@@ -52,7 +59,32 @@ nav li{
     margin-top:100px;
 }
 
+nav a:hover{
+  color:rgb(159, 168, 163);
+}
 
+.body{
+  background-color: rgb(197, 213, 203);
+}
+
+.bodyContainer{
+  height:100%;
+  width:94%;
+  margin-right: 3%;
+  margin-left:3%;
+  background-color: red;
+}
+
+.postContainer{
+  padding:20px;
+  
+  background-color: white;
+  width:90%;
+  margin-right: 5%;
+  margin-left:5%;
+  height: 300px;
+  margin-top:20px;
+}
 
 
 

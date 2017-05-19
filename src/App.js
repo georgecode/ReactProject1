@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // import HeaderTest from './HeaderTest.js';
 import Header from './components/Header.js';
+import BodyContainer from './components/BodyContainer.js';
 
 // class App extends Component {
 //   render() {
@@ -27,9 +28,10 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div>
+        <div className="body">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/2006-01-14_Surface_waves.jpg/300px-2006-01-14_Surface_waves.jpg" className="App-logo" alt="logo" />
         </div>
+        <BodyContainer />
       </div>
     );
   }
