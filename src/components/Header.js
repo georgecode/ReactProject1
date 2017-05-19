@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import NavBar from './NavBar.js';
 
 class HeaderTest extends Component {
 	render(){
 		return(
-			<h1>Hello0000 React</h1>
+			<div className="header">
+				<NavBar />
+			</div>
 			)
 	}
 

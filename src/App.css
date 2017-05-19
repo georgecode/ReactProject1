@@ -1,13 +1,13 @@
-.App {
+/*.App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+}*/
 
-.App-header {
+/*.App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
@@ -16,9 +16,48 @@
 
 .App-intro {
   font-size: large;
-}
-
+}*/
+/*
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/
+
+
+/*#c5d5cb light-blue rgb(197, 213, 203)
+#9fa8a3 dark_grey rgb(159, 168, 163)
+#e3e0cf peach rgb(227, 224, 207)
+*/
+
+@import url("Reset.css");
+
+li{
+  list-style: none;
+}
+
+.header{
+  height:200px;
+  background-color: red;
+  font-size: 2em;
+}
+
+nav{
+  padding-top:100px;
+  text-align: center;
+}
+nav li{
+    display:inline;
+    margin:15px 15px;
+    margin-top:100px;
+}
+
+
+
+
+
+
+
+
+
+
