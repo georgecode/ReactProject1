@@ -1,13 +1,23 @@
 import React, {Component} from 'react';
+// import PostContainer from './PostContainer';
+import {content} from './Content.js';
+
+var shit="shit";
 
 
 class PostContainer extends Component{
+
+	
 	render(){
+		
+		// console.log(content[0])
+		
 		return(
 			<div className="postContainer">
-				<h1 className="title">Title</h1>
-				<img src='https://upload.wikimedia.org/wikipedia/en/4/4b/Little_island_colour_logo_200x200.jpg'/>
-				<p>content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content content</p>
+				<h1>{content[0].title}</h1>
+				<h1 className="title">{this.props.title}</h1>
+				<img src={content[0].img}/>
+				<p>{content[0].content}</p>
 			</div>
 			)
 	}
