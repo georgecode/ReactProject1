@@ -1,4 +1,4 @@
-const xhello = "XXXXX HHEEELLLOOOOOOOOO"
+// const xhello = "XXXXX HHEEELLLOOOOOOOOO"
 
 var pic1="http://www.techfleece.com/wp-content/uploads/2011/12/android-logo-200x200.jpg"
 var pic2="http://bighappyface.com/Happy%20Face%20200x200.png"

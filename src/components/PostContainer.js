@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 // import PostContainer from './PostContainer';
-import {content} from './Content.js';
+// import {content} from './Content.js';
 
 
 class PostContainer extends Component{	
@@ -9,7 +9,7 @@ class PostContainer extends Component{
 		return(
 			<div className="postContainer">
 				<h1>{this.props.title}</h1>
-				<img src={this.props.img}/>
+				<img src={this.props.img} alt="fuckyou"/>
 				<p>{this.props.content}</p>
 			</div>
 			)
